@@ -1,0 +1,6 @@
+# Mac Finder
+.DS_Store
+
+#Kicad Backup files
+*.bak
+*.pcb-bak

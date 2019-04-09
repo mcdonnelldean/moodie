@@ -1,6 +1,6 @@
 (export (version D)
   (design
-    (source /Users/mcdonnelldean/repos/notebooks/notebook-moodie/kicad/moodie-control-board/moodie-analogue-controller.sch)
+    (source /Users/mcdonnelldean/repos/notebooks/notebook-moodie/kicad/moodie-control-board/moodie-analog-controller.sch)
     (date "Thursday 04 April 2019 at 13:09:29")
     (tool "Eeschema (5.0.0-3-g5ebb6b6)")
     (sheet (number 1) (name /) (tstamps /)
@@ -9,7 +9,7 @@
         (company mcddv.me/moodie)
         (rev V1.0)
         (date 2019-04-04)
-        (source moodie-analogue-controller.sch)
+        (source moodie-analog-controller.sch)
         (comment (number 1) (value "LICENSE: MIT"))
         (comment (number 2) (value ""))
         (comment (number 3) (value ""))

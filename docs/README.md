@@ -30,24 +30,24 @@ Assuming you already have parts, it should take no more than an afternoon to bui
 - Basic soldering skills. Part count and size have been heavily considered when designing Moodie.
 - 
 
-#### Analogue or Digital
-Moodie comes in two flavours, digital - which supports 5V chipset driven LED'S, and analogue - which supports 12V Transistor driven LED's.
+#### Analog or Digital
+Moodie comes in two flavours, digital - which supports 5V chipset driven LED'S, and analog - which supports 12V Transistor driven LED's.
 
 ## Moodie Kit
 To keep Moodie as modular and simple as possible, the whole kit has been broken out into build-able or purchasable parts. Follow each section below to build out your own LED installation.
 
-### Analogue
+### Analog
 To keep Moodie as modular and simple as possible, the whole kit has been broken out into build-able or purchasable parts. Follow each section below to build out your own LED installation.
 
-#### Moodie Analogue Controller
+#### Moodie Analog Controller
 The Moodie Controller is a custom designed PCB which houses a WeMos D1 Mini as it's brain. The controller itself acts as a power path and strip connector for the D1 Mini. The parts list and soldering requirements have been kept as minimal as possible to keep the barrier to entry low.
 
-- [Take a look](/moodie-controller-board/)
+- [Take a look](/moodie-analog-controller/)
 
-#### Moodie Analogue App
+#### Moodie Analog App
 The Moodie App is a Blynk created application that can run on any modern smart phone. It can be used in the cloud or ran completely internally to your network should privacy be a concern.
 
-- [Take a look](/moodie-app/)
+- [Take a look](/moodie-analog-app/)
 
 ### Digital
 To keep Moodie as modular and simple as possible, the whole kit has been broken out into build-able or purchasable parts. Follow each section below to build out your own LED installation.
@@ -55,12 +55,12 @@ To keep Moodie as modular and simple as possible, the whole kit has been broken 
 #### Moodie Digital Controller
 The Moodie Controller is a custom designed PCB which houses a WeMos D1 Mini as it's brain. The controller itself acts as a power path and strip connector for the D1 Mini. The parts list and soldering requirements have been kept as minimal as possible to keep the barrier to entry low.
 
-- [Take a look](/moodie-controller-board/)
+- [Take a look](/moodie-digital-controller/)
 
 #### Moodie Digital App
 The Moodie App is a Blynk created application that can run on any modern smart phone. It can be used in the cloud or ran completely internally to your network should privacy be a concern.
 
-- [Take a look](/moodie-app/)
+- [Take a look](/moodie-digital-app/)
 
 ### Extras
 

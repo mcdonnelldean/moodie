@@ -15,7 +15,7 @@ LibDir=
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=NetList/moodie-analogue-controller.net
+LastNetListRead=NetList/moodie-analog-controller.net
 PadDrill=0.762
 PadDrillOvalY=0.762
 PadSizeH=1.524
