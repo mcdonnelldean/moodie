@@ -1,0 +1,207 @@
+EESchema Schematic File Version 4
+LIBS:d1_mini_shield_digi_led-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "Moodie Control Board"
+Date "2018-09-24"
+Rev "V1.0"
+Comp "mcddv.me/moodie"
+Comment1 "LICENSE: MIT"
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L wemos_d1_mini:WEMOS_D1_MINI U1
+U 1 1 5BA3A736
+P 5575 3650
+F 0 "U1" H 5550 4412 60  0000 C CNN
+F 1 "WEMOS_D1_MINI" H 5550 4306 60  0000 C CNN
+F 2 "Custom_Parts:WeMos_D1_Mini_Minimal_Connector" H 4950 3025 60  0001 C CNN
+F 3 "" H 4950 3025 60  0001 C CNN
+	1    5575 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x03_Female J2
+U 1 1 5BA3A86F
+P 8700 3575
+F 0 "J2" H 8727 3601 50  0000 L CNN
+F 1 "Conn_01x03_Female" H 8727 3510 50  0000 L CNN
+F 2 "Custom_Parts:Spring_Conn_3Pin" H 8700 3575 50  0001 C CNN
+F 3 "~" H 8700 3575 50  0001 C CNN
+	1    8700 3575
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP_Small C1
+U 1 1 5BA3A90C
+P 7625 3575
+F 0 "C1" H 7713 3621 50  0000 L CNN
+F 1 "1KuF" H 7713 3530 50  0000 L CNN
+F 2 "Capacitors_THT:CP_Radial_D10.0mm_P5.00mm" H 7625 3575 50  0001 C CNN
+F 3 "~" H 7625 3575 50  0001 C CNN
+	1    7625 3575
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Barrel_Jack_Switch J1
+U 1 1 5BA3AF11
+P 3050 3500
+F 0 "J1" H 3105 3817 50  0000 C CNN
+F 1 "Barrel_Jack" H 3105 3726 50  0000 C CNN
+F 2 "Connectors:BARREL_JACK" H 3100 3460 50  0001 C CNN
+F 3 "~" H 3100 3460 50  0001 C CNN
+	1    3050 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8500 3475 8350 3475
+Wire Wire Line
+	8350 3475 8350 3300
+Wire Wire Line
+	8350 3300 7625 3300
+Wire Wire Line
+	8500 3675 8350 3675
+Wire Wire Line
+	8350 3675 8350 3850
+Wire Wire Line
+	8350 3850 7625 3850
+Wire Wire Line
+	7625 3300 7625 3475
+Wire Wire Line
+	7625 3675 7625 3850
+Text Label 7875 3575 2    50   ~ 0
+D8
+Wire Wire Line
+	3350 3600 3525 3600
+Wire Wire Line
+	3350 3500 3525 3500
+Wire Wire Line
+	3525 3500 3525 3600
+$Comp
+L power:+5V #PWR01
+U 1 1 5BA7D627
+P 3525 3400
+F 0 "#PWR01" H 3525 3250 50  0001 C CNN
+F 1 "+5V" H 3540 3573 50  0000 C CNN
+F 2 "" H 3525 3400 50  0001 C CNN
+F 3 "" H 3525 3400 50  0001 C CNN
+	1    3525 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3350 3400 3525 3400
+Wire Wire Line
+	4950 4275 4750 4275
+Text Label 4750 4275 2    50   ~ 0
+D8
+Wire Wire Line
+	6150 4150 6500 4150
+Wire Wire Line
+	6500 4150 6500 4000
+Wire Wire Line
+	6150 4275 6500 4275
+Wire Wire Line
+	6500 4275 6500 4450
+$Comp
+L power:+5V #PWR05
+U 1 1 5BA8162D
+P 6500 4000
+F 0 "#PWR05" H 6500 3850 50  0001 C CNN
+F 1 "+5V" H 6515 4173 50  0000 C CNN
+F 2 "" H 6500 4000 50  0001 C CNN
+F 3 "" H 6500 4000 50  0001 C CNN
+	1    6500 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR06
+U 1 1 5BA81642
+P 6500 4450
+F 0 "#PWR06" H 6500 4200 50  0001 C CNN
+F 1 "GND" H 6505 4277 50  0000 C CNN
+F 2 "" H 6500 4450 50  0001 C CNN
+F 3 "" H 6500 4450 50  0001 C CNN
+	1    6500 4450
+	1    0    0    -1  
+$EndComp
+NoConn ~ 4950 3150
+NoConn ~ 4950 3400
+NoConn ~ 4950 3525
+NoConn ~ 4950 3650
+NoConn ~ 4950 3775
+NoConn ~ 4950 3900
+NoConn ~ 4950 4025
+NoConn ~ 4950 4150
+NoConn ~ 6150 4025
+NoConn ~ 6150 3650
+NoConn ~ 6150 3275
+NoConn ~ 6150 3150
+$Comp
+L power:GND #PWR02
+U 1 1 5BA83176
+P 3525 3600
+F 0 "#PWR02" H 3525 3350 50  0001 C CNN
+F 1 "GND" H 3530 3427 50  0000 C CNN
+F 2 "" H 3525 3600 50  0001 C CNN
+F 3 "" H 3525 3600 50  0001 C CNN
+	1    3525 3600
+	1    0    0    -1  
+$EndComp
+Connection ~ 3525 3600
+$Comp
+L power:PWR_FLAG #FLG02
+U 1 1 5BA83217
+P 3525 3500
+F 0 "#FLG02" H 3525 3575 50  0001 C CNN
+F 1 "PWR_FLAG" V 3525 3628 50  0001 L CNN
+F 2 "" H 3525 3500 50  0001 C CNN
+F 3 "~" H 3525 3500 50  0001 C CNN
+	1    3525 3500
+	0    1    1    0   
+$EndComp
+Connection ~ 3525 3500
+$Comp
+L power:PWR_FLAG #FLG01
+U 1 1 5BA833E3
+P 3525 3400
+F 0 "#FLG01" H 3525 3475 50  0001 C CNN
+F 1 "PWR_FLAG" V 3525 3528 50  0001 L CNN
+F 2 "" H 3525 3400 50  0001 C CNN
+F 3 "~" H 3525 3400 50  0001 C CNN
+	1    3525 3400
+	0    1    1    0   
+$EndComp
+Connection ~ 3525 3400
+$Comp
+L power:+5V #PWR03
+U 1 1 5BA867EC
+P 7625 3300
+F 0 "#PWR03" H 7625 3150 50  0001 C CNN
+F 1 "+5V" H 7640 3473 50  0000 C CNN
+F 2 "" H 7625 3300 50  0001 C CNN
+F 3 "" H 7625 3300 50  0001 C CNN
+	1    7625 3300
+	1    0    0    -1  
+$EndComp
+Connection ~ 7625 3300
+$Comp
+L power:GND #PWR04
+U 1 1 5BA86801
+P 7625 3850
+F 0 "#PWR04" H 7625 3600 50  0001 C CNN
+F 1 "GND" H 7630 3677 50  0000 C CNN
+F 2 "" H 7625 3850 50  0001 C CNN
+F 3 "" H 7625 3850 50  0001 C CNN
+	1    7625 3850
+	1    0    0    -1  
+$EndComp
+Connection ~ 7625 3850
+NoConn ~ 4950 3275
+Wire Wire Line
+	7875 3575 8500 3575
+$EndSCHEMATC
