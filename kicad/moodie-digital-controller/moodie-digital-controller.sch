@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:d1_mini_shield_digi_led-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -85,12 +84,12 @@ Wire Wire Line
 $Comp
 L power:+5V #PWR01
 U 1 1 5BA7D627
-P 3525 3400
-F 0 "#PWR01" H 3525 3250 50  0001 C CNN
-F 1 "+5V" H 3540 3573 50  0000 C CNN
-F 2 "" H 3525 3400 50  0001 C CNN
-F 3 "" H 3525 3400 50  0001 C CNN
-	1    3525 3400
+P 3525 2975
+F 0 "#PWR01" H 3525 2825 50  0001 C CNN
+F 1 "+5V" H 3540 3148 50  0000 C CNN
+F 2 "" H 3525 2975 50  0001 C CNN
+F 3 "" H 3525 2975 50  0001 C CNN
+	1    3525 2975
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -204,4 +203,19 @@ Connection ~ 7625 3850
 NoConn ~ 4950 3275
 Wire Wire Line
 	7875 3575 8500 3575
+$Comp
+L Device:Polyfuse_Small F1
+U 1 1 5CADECDD
+P 3525 3150
+F 0 "F1" H 3593 3196 50  0000 L CNN
+F 1 "3A Hold / 5A Trip" H 3593 3105 50  0000 L CNN
+F 2 "Fuse_Holders_and_Fuses:Fuse_SMD2920" H 3575 2950 50  0001 L CNN
+F 3 "~" H 3525 3150 50  0001 C CNN
+	1    3525 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3525 3250 3525 3400
+Wire Wire Line
+	3525 3050 3525 2975
 $EndSCHEMATC
