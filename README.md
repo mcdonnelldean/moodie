@@ -10,5 +10,4 @@ If you simply wish to read about the project or otherwise do not intend to build
 
 [logo-img]: img/logo-pos.svg
 [docs]:contributing/
-[moodie.mcddv.me]: /
-[mcdonnelldean/moodie]: /
+[moodie.mcddv.me]: moodie.mcddv.me
